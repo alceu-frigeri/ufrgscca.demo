@@ -40,7 +40,7 @@ The Current Maintainer of this work is Alceu Frigeri
 -------------
 ## This work consist of the directories/files
 
-* Estágios
+* Estagios
     - ModeloEstagoObrigatorio.tex
     - ModeloEstagoNaoObrigatorio.tex
     - ModeloForms.tex
@@ -54,6 +54,15 @@ The Current Maintainer of this work is Alceu Frigeri
 * TCC
     - ModeloTCC.tex
     - ModeloForms.tex
+    - local.tex
+    - modelo.bib
+    - eco.eps
+    - fe.eps
+    - fig.eps
+    - motor.eps
+
+* Relatorio
+    - ModeloRelatorio.tex
     - local.tex
     - modelo.bib
     - eco.eps
