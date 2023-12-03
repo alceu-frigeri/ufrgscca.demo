@@ -1,0 +1,71 @@
+% !TEX program = pdflatex
+% !TEX ext =  --interaction=nonstopmode --enable-etex
+% !BIB program = none
+%%%==============================================================================
+%% Copyright 2022-23 by Alceu Frigeri
+%%
+%% Document (sample) file using the class ufrgscca
+%%
+%%%==============================================================================
+%
+\documentclass{ufrgscca}
+\usepackage{ufrgscca-forms}
+
+%
+% demais informações em local.tex
+%
+
+%%%%%%%%%
+%%
+%%  Nota '-I' refere-se a TCC I, '-II' refere-se a TCC II.
+%%
+%%	reqform                 %%% Formulário de requerimento de matrícula em TCC
+%%	coadvisor               %%% Formulário de requerimento/justficativa para co-orientador
+%%	boardapproval           %%% Formulário de aprovação da Banca Examinadora
+%%	advisorsapproval        %%% Formulário de aprovação do Orientador com parecer do mesmo
+%%	receipts                %%% Formulários de recebimento de cópia impressa do TCC (somente -II)
+%%	examinersforms          %%% Formulários de avaliação e correções para Banca Examinadora
+%%	rectifyapproval         %%% Formulário de Aprovação de Correções
+%%
+%%	internreqform           %%% Formulário de requerimento de matrícula em Estágio Obrigatório
+%%	internsupervisorform    %%% Formulário de avaliação do estágio pelo supervisor
+%%	interntutorform         %%% Formulário de avaliação do estágio pelo tutor
+%%
+%%%%%%%%%
+
+
+%%%%%%%%%
+%%
+%% \tcemptyforms{} gerará os formulários 'em branco'
+%%
+%% \tcforms{} gerará os formulários com os dados fornecidos em local.tex
+%%
+%%%%%%%%%
+
+%
+% inicio do documento
+%
+\begin{document}
+
+%%%%%%%%%
+%% Para Estágio Obrigatório
+%%
+%\tcemptyforms{internreqform,internsupervisorform,interntutorform}
+
+%\tcforms{internreqform,internsupervisorform,interntutorform}
+  
+%%%%%%%%%
+%% Para TCC I
+%%
+%\tcemptyforms{reqform-I,coadvisor-I,boardapproval-I,advisorsapproval-I,examinersforms-I,rectifyapproval-I}
+
+%\tcforms{reqform-I,coadvisor-I,boardapproval-I,advisorsapproval-I,examinersforms-I,rectifyapproval-I}
+  
+%%%%%%%%%
+%% Para TCC II
+%%
+%\tcemptyforms{reqform-II,coadvisor-II,boardapproval-II,advisorsapproval-II,receipts-II,examinersforms-II,rectifyapproval-II}
+
+\tcforms{reqform-II,coadvisor-II,boardapproval-II,advisorsapproval-II,receipts-II,examinersforms-II,rectifyapproval-II}
+
+\end{document}
