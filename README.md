@@ -74,7 +74,13 @@ The Current Maintainer of this work is Alceu Frigeri
     - GradeDemo.tex
     - Grade2024-CCA.tex
     
-
+* docs
+    - biblatex-cheatsheet.pdf
+    - LaTeX-Course.pdf
+    - latexsheet.pdf
+    - TeXRefCardv15.pdf
+    - Writing Articles.pdf
+    
 -------------
 
 

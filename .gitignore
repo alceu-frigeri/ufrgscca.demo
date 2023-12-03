@@ -56,6 +56,12 @@ deprecated/
 # latexrun
 latex.out/
 
+## Auxiliary files/directories
+/FormsSite
+/Coord
+/scratch
+/ABNT
+
 ## Auxiliary and intermediate files from other packages:
 # algorithms
 *.alg
