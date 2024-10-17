@@ -25,7 +25,7 @@ Please do not use the issue page for generic help on how to use the package.
 * git: https://github.com/alceu-frigeri/ufrgscca.demo
 
 -------------
-Copyright 2022-23 by Alceu Frigeri
+Copyright 2022-present by Alceu Frigeri
 
  This work may be distributed and/or modified under the
  conditions of
@@ -86,7 +86,10 @@ The Current Maintainer of this work is Alceu Frigeri
 
 ## Changelog
 
-* Version 1.0 (this)
+* Version 1.1 (this)
+    - sync with ufrgscca v2.11
+
+* Version 1.0
     - Initial release
 
 
