@@ -15,8 +15,9 @@
 *.cb2
 .*.lb
 
-## ignore 'deprecated' files
-deprecated/
+## test directories
+#tests/
+#deprecated/
 
 ## TeXstudio
 *.txss2
@@ -55,12 +56,6 @@ deprecated/
 ## Build tool directories for auxiliary files
 # latexrun
 latex.out/
-
-## Auxiliary files/directories
-/FormsSite
-/Coord
-/scratch
-/ABNT
 
 ## Auxiliary and intermediate files from other packages:
 # algorithms
@@ -139,6 +134,7 @@ acs-*.bib
 # gnuplot
 *.gnuplot
 *.table
+*.vrs
 
 # gnuplottex
 *-gnuplottex-*

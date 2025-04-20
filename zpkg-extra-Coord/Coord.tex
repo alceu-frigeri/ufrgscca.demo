@@ -1,0 +1,753 @@
+% !TEX program = pdflatex
+% !TEX ext =  --interaction=nonstopmode --enable-etex
+% !BIB program = none
+%%%==============================================================================
+%% Copyright 2022-23 by Alceu Frigeri
+%%
+%% Document (sample) file using the class ufrgscca
+%%
+%%%==============================================================================
+%
+\documentclass{ufrgscca}
+\usepackage{ufrgscca-coord}
+
+%
+% demais informações
+%
+\input{Coord-xtra.tex}
+
+
+\ActivitySetCoord[course]{Alceu Heinke Frigeri}[m]
+
+\ActivitySetCoord[internship]{Rafael Comparsi Laranja}[m]
+
+\ActivitySelect{tccI}
+\ActivitySetCoord{Lucíola Campestrini}[f]
+
+\ActivitySetEventDay{Apresentacao}{Dia 09/10}{01}
+\ActivitySetEventDay{Matricula}{Até 27/10}{02 a 03}
+\ActivitySetEventDay{EncontroI}{A marcar}{07}
+\ActivitySetEventDay{IndicaBanca}{Até 15/12}{09}
+\ActivitySetEventDay{EntregaTCC}{Até 12/01}{11}
+\ActivitySetEventDay{Bancas}{Até 01/02}{14}
+\ActivitySetEventDay{Correcoes}{Até 08/02}{16}
+\ActivitySetEventDay{Exame}{Até 22/02}{18}
+
+
+\ActivitySelect{tccII}
+\ActivitySetCoord{Lucíola Campestrini}[f]
+
+\ActivitySetEventDay{Apresentacao}{Dia 09/10}{01}
+\ActivitySetEventDay{Matricula}{Até 27/10}{02 a 03}
+\ActivitySetEventDay{EncontroI}{A marcar}{07}
+\ActivitySetEventDay{IndicaBanca}{Até 15/12}{09}
+\ActivitySetEventDay{Seminarios}{08-12/01}{11}
+\ActivitySetEventDay{EntregaTCC}{Até 26/01}{13}
+\ActivitySetEventDay{Bancas}{05-09/02}{16}
+\ActivitySetEventDay{FormCorrecoes}{Até 09/02}{16}
+\ActivitySetEventDay{Correcoes}{Até 16/02}{17}
+\ActivitySetEventDay{Exame}{Até 23/02}{18}
+
+
+
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+%%
+%% Alunos TCC-II
+%%
+%%%%%%%%%%%%%%
+\ActivitySelect{tccII} %% Necessário apenas no caso de \checklist
+
+
+%%%%%%%%%%%%%
+	\student[Andre]{Zary Mariano da Silva}{André Luis}[m]
+	\studentinfo[23078.537642/2023-66]{259801}{andre.zary@ufrgs.br}
+  \studentremark{apto a se matricular em TCC II}
+	\worktitle{Automação de Estufas Agrícolas}
+
+  \studentaddtolist{tccII}
+
+  \advisorprof{fabiano}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{6}{6}{6}
+  \examinerprof{goetz}
+	\examinergrades{7}{7}{7}
+  \examinerprof{aurelio}
+	\examinergrades{6}{6}{6}
+%			\studentfate[Dismiss]  %% FF or Dismiss ??
+  %\timeslot{}{}
+  \timeslot{19/11/2024}{19:30}
+
+%%%%%%%%%%%%%
+	\student[Bruno]{Capelari}{Bruno}[m]
+	\studentinfo[23078.537867/2023-12]{00288580}{brunocappellari5@gmail.com}
+%	\worktitle{Test And Validation Of Video On Gigabit Serial Multimedia Link Interface}
+	\worktitle{Validação e Teste de Vídeo com a Interface Gigabit Serial Multimidia Link}
+
+  \studentaddtolist{tccII}
+
+  \advisorprof{goetz}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{8}{8}{8}
+  \examinerprof{edison}
+	\examinergrades{8}{8}{8}
+  \examinerprof{renato}
+	\examinergrades{9}{9}{9}
+%			\studentfate[Dismiss]  %% FF or Dismiss ??
+  \timeslot{19/11/2024}{18:30}
+
+%%%%%%%%%%%%%
+	\student[EduardoFarinati]{Farinati Leite}{Eduardo}[m]
+	\studentinfo[23078.537301/2023-91]{275632}{eduardo.farinati@ufrgs.br}
+	\worktitle{Coordenação de Sistemas Multi-Agentes: Uma Perspectiva da Teoria do Controle Escalável}
+
+  \studentaddtolist{tccII}
+
+  \advisorprof{goetz}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{10}{10}{10}
+  \examinerprof{joaonetto}
+	\examinergrades{9}{9}{9}
+  \examinerprof{renato}
+	\examinergrades{9}{9}{9}
+	%\checklist{tcc-part,partOK,board,board-date}
+  \timeslot{19/11/2024}{17:0}
+
+%%%%%%%%%%%%%
+	\student[Henrique]{Scharlau Coelho}{Henrique}[m]
+	\studentinfo[23078.537776/2023-87]{243627}{henriquescharlaucoelho@gmail.com}
+	\worktitle{Mapeamento de Ambiente para Navegação de um Robô Móvel}
+
+  \studentaddtolist{tccII}
+
+  \advisorprof{walter}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{}{}{}
+  \examinerprof{laranja}
+	\examinergrades{}{}{}
+  \examinerprof{renato} 
+	\examinergrades{}{}{}
+  \timeslot{20/11/2024}{19:30}
+  \studentfate[FF]
+
+%%%%%%%%%%%%%
+	\student[Jean]{Dall'Oglio}{Jean Victor}[m]
+	\studentinfo[23078.537766/2023-41]{273185}{jean.dalloglio@ufrgs.br}
+	\worktitle{Inspeção de Coloração de Cabeamentos a Partir do Uso de Visão Computacional}
+
+  \studentaddtolist{tccII}
+
+  \advisorprof{heraldo}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{}{}{}
+  \examinerprof{fabiano}
+	\examinergrades{}{}{}
+  \examinerprof{laranja}
+	\examinergrades{}{}{}
+  \timeslot{21/11/2024}{19:30}
+  \studentfate[dismiss]
+
+%%%%%%%%%%%%%
+	\student[Joao]{Buscaino Mergener}{João Vitor}[m]
+	\studentinfo[23078.591268/2022-63]{265016}{joaovbmergener@gmail.com}
+	\worktitle{Automação das Condições Ambientais de uma Residência com Foco no Bem-Estar de um Indivíduo}
+
+  \studentaddtolist{tccII}
+
+  \advisorprof{fabiano}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{}{}{}
+  \examinerprof{goetz}
+	\examinergrades{}{}{}
+  \examinerprof{laranja}
+	\examinergrades{}{}{}
+  \timeslot{21/11/2024}{18:30}
+  \studentfate[C]
+
+%%%%%%%%%%%%%
+	\student[LeonardoReal]{Santana Real}{Leonardo}[m]
+	\studentinfo[23078.537279/2023-89]{181909}{lereall@hotmail.com}
+	\worktitle{Automação de Ajuste e Programação de Mesa Tangível}
+
+  \studentaddtolist{tccII}
+
+	\advisorprof{renato}
+	\coadvisorprof{laranja}
+	\examinergrades{}{}{}
+	\examinerprof{heraldo}
+	\examinergrades{}{}{}
+	\examinerprof{pedro}
+	\examinergrades{}{}{}
+  \timeslot{22/11/2024}{19:30}
+  \studentfate[D]
+
+%%%%%%%%%%%%%
+	\student[LeonardoRocha]{da Rocha Neitzke}{Leonardo}[m]
+	\studentinfo[23078.537660/2023-48]{288584}{leorochaneitzke@gmail.com}
+	\worktitle{Projeto de um AGV Utilizando Detecção de “Tags” por Visão Computacional}
+
+  \studentaddtolist{tccII}
+
+	\advisorprof{aurelio}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{}{}{}
+	\examinerprof{heraldo}
+	\examinergrades{}{}{}
+	\examinerprof{renato}
+	\examinergrades{}{}{}
+  \timeslot{22/11/2024}{18:30}
+
+%%%%%%%%%%%%%
+	\student[Lucas]{Cunha}{Lucas Esteves}[m]
+	\studentinfo[23078.537635/2023-64]{314703}{lucas.esteves4589@gmail.com}
+	\worktitle{Aplicação do Método VDFT para Sintonia de Controlador Repetitivo}
+
+  \studentaddtolist{tccII}
+
+	\advisorprof{luciola}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{}{}{}
+  \examinerprof{jeferson}
+	\examinergrades{}{}{}
+	\examinerprof{jm}
+	\examinergrades{}{}{}
+  \timeslot{22/11/2024}{17:30}
+
+%%%%%%%%%%%%%
+	\student[MarceloEly]{Lapis Ely}{Marcelo}[m]
+	\studentinfo[23078.537704/2023-30]{208607}{marc.elo.ely@hotmail.com}
+	\worktitle{Análise de Confiabilidade para Componentes de Máquinas Agrícolas: Estudo de Caso Comparativo no Disco de Embreagem de um Trator}
+
+  \studentaddtolist{tccII}
+
+	\advisorprof{aurelio}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{}{}{}
+	\examinerprof{pedro}
+	\examinergrades{}{}{}
+	\examinerprof{renato}
+	\examinergrades{}{}{}
+  \timeslot{7/09/2024}{06:030}
+
+%%%%%%%%%%%%%
+	\student[MarceloSalvadori]{Ferreira Salvadori}{Marcelo}[m]
+	\studentinfo[23078.537764/2023-52]{278026}{marcello.salvadori@uol.com.br}
+	\worktitle{Aplicação De Visão Computacional para Detecção de Pragas em Plantas}
+
+  \studentaddtolist{tccII}
+
+	\advisorprof{heraldo}
+  \coadvisorprof{yachel}
+	\examinergrades{}{}{}
+	\examinerprof{goetz}
+	\examinergrades{}{}{}
+	\examinerprof{renato}
+	\examinergrades{}{}{}
+  \timeslot{008/9/2024}{0009:003}
+
+%%%%%%%%%%%%%
+	\student[Miron]{da Rocha Silveira Neto}{Miron}[m]
+	\studentinfo[23078.537262/2023-21]{206444}{miron.neto@hotmail.com}
+	\worktitle{Sistema Didático de Semáforo Utilizando FreeRTOS}
+
+  \studentaddtolist{tccII}
+
+	\advisorprof{goetz}
+	\coadvisorprof{renato}
+	\examinergrades{}{}{}
+	\examinerprof{fabiano}
+	\examinergrades{}{}{}
+	\examinerprof{heraldo}
+	\examinergrades{}{}{}
+  \timeslot{23/11/2024}{20:30}
+
+%%%%%%%%%%%%%
+	\student[Nickolas]{Pessim Oliveira da Fonseca}{Nickolas}[m]
+	\studentinfo[23078.534683/2023-09]{302582}{nickolaspessim@hotmail.com}
+	\worktitle{Projeto de Controlador para Quadricópteros em Entregas Autônomas}
+
+  \studentaddtolist{tccII}
+
+	\advisorprof{mario}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{}{}{}
+	\examinerprof{walter}
+	\examinergrades{}{}{}
+  \examinerprof{perondi}
+	\examinergrades{}{}{}
+  \timeslot{24/11/2024}{19:30}
+
+%%%%%%%%%%%%%
+	\student[Thales]{Maia Gomes}{Thalles Augusto}[m]
+	\studentinfo[23078.537579/2023-68]{278186}{thalles.gomes@ufrgs.br}
+	\worktitle{Automóvel em Miniatura Operado Remotamente com Resposta Vibrotátil e de Imagens}
+
+  \studentaddtolist{tccII}
+
+	\advisorprof{goetz}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{}{}{}
+	\examinerprof{laranja}
+	\examinergrades{}{}{}
+	\examinerprof{renato}
+	\examinergrades{}{}{}
+  \timeslot{24/11/2024}{18:30}
+
+%%%%%%%%%%%%%
+	\student[Vitor]{Almeida de Carvalho}{Vitor}[m]
+	\studentinfo[23078.537641/2023-11]{289783}{vcarvalho999@gmail.com}
+	\worktitle{Análise do Protocolo LoRa Usando GNU Radio}
+
+  \studentaddtolist{tccII}
+
+	\advisorprof{goetz}
+  \coadvisorprof{ivan}
+	\examinergrades{}{}{}
+  \examinerprof{valner}
+	\examinergrades{}{}{}
+  \examinerprof{feldman}
+	\examinergrades{}{}{}
+  \timeslot{25/11/2024}{19:30}
+
+
+
+%%%%%%%%%%%
+%%%%%%%%%%%
+
+
+
+%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%
+%%
+%% Alunos TCC-I
+%%
+%%%%%%%%%%%%%%
+\ActivitySelect{tccI} %% Necessário apenas no caso de \checklist
+
+
+
+%%%%%%%%%%%%%%
+	\student[Alexandre]{Marquezan Randazzo}{Alexandre}[m] 
+	\studentinfo[23078.537007/2023-89]{00231087}{00231087@ufrgs.br}
+	\worktitle{Controle de Ruído de um Torno CNC por Meio de Observador de Helmholtz}
+  \studentremark{2o. semestre}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{laranja}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+%%%%%%%%%%%%%%
+	\student[LucasMuratore]{Muratore}{Lucas}[m] %desde 2018/2 - inserir moodle
+	\studentinfo[23078.537491/2023-46]{220478}{lcsmrtre@gmail.com}
+	\worktitle{Sintonia de Controladores Repetitivos pelo método de Identificação Ótima do Controlador}
+  \studentremark{2o. semestre - lucas7@live.co.uk}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{luciola}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+  \studentfate[D]
+
+	%\studentfate[FF]
+
+
+%%%%%%%%%%%%%%
+	\student[Rodrigo]{Cardoso}{Rodrigo Danielli}[m] 
+	\studentinfo[23078.537694/2023-32]{243706}{rodrigo_cardoso_1@hotmail.com}
+	\worktitle{Reconhecimento por Imagem de LIBRAS}
+  \studentremark{2o. semestre}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{goetz}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+
+%%%%%%%%%%%%%%
+	\student[DanielBaraldi]{Baraldi}{Daniel Wellington}[m] 
+	\studentinfo[23078.536969/2023-11]{290409}{danielbbaraldi@outlook.com}
+	\worktitle{Testes de Estratégias de Controle para Planta Mix-Demix}
+  \studentremark{2o. semestre}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{pedro}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+%%%%%%%%%%%%%%
+	\student[GuilhermeCabral]{Cabral}{Guilherme Martins}[m] %desde 2018/2 - inserir moodle
+	\studentinfo[23078.575783/2023-87]{262546}{guilherme.mcabral@gmail.com}
+	\worktitle{Identificação Paramétrica de um Processo de Nível de um Tanque}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{luciola}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examinerprof{jm}
+	\examinergrades{10}{9}{9}[8]
+	\examinerprof{goetz}
+	\examinergrades{8}{8}{8}[8]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+%%%%%%%%%%%%%%
+	\student[Daniel]{Ribeiro Martins}{Daniel Santana}[m] %desde 2018/2 - inserir moodle
+	\studentinfo[23078.575835/2023-15]{264399}{guilherme.mcabral@gmail.com}
+	\worktitle{Projeto e Implementação de Controle Digital p/ Conversor Buck-Boost}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{jm}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examinerprof{luciona}
+	\examinergrades{7}{7}{6}[6]
+	\examinerprof{renato}
+	\examinergrades{6}{6}{6}[6]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+%%%%%%%%%%%%%%
+	\student[Julia]{Sartori Studer}{Júlia}[f]
+	\studentinfo[23078.575871/2023-89]{302458}{juh.studer@gmail.com}
+	\worktitle{Análise e Aprimoramento de um Sistema de Visão Computacional para Avaliação da Qualidade de Furos}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{heraldo}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examinerprof{mario}
+	\examinergrades{6}{6}{6}[6]
+	\examinerprof{laranja}
+	\examinergrades{5}{5}{5}[5]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+%%%%%%%%%%%%%%
+	\student[BrunoAlmiron]{Rodrigues}{Bruno Almiron}[m]
+	\studentinfo[23078.575381/2023-82]{231075}{brunoalmiron.1993@gmail.com}
+	\worktitle{Análise do Controle de um Elevador Auxiliado por Sistema de Hardware-In-the-Loop}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{perondi}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+%%%%%%%%%%%%%%
+	\student[EduardoChini]{Chini de Freitas}{Eduardo}[m]
+	\studentinfo[23078.575094/2023-72]{262543}{edufreitas.ac@gmail.com}
+	\worktitle{Análise de Sistemas de Posicionamento para um Robô de Usinagem}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{laranja}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+%%%%%%%%%%%%%%
+	\student[Guilherme]{Oliveira de Brito}{Guilherme }[m]
+	\studentinfo[23078.574195/2023-26]{288573}{guibrito8@gmail.com}
+	\worktitle{HISEP}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{jorge}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+%%%%%%%%%%%%%%
+	\student[Karoline]{Santos de Souza}{Karoline}[m]
+	\studentinfo[23078.574224/2023-50]{262548}{karoline.santosds@gmail.com}
+	\worktitle{Sistema de Automação para Agricultura Urbana: Estufa Inteligente de Baixo Custo para Plantio de Alface e tempero Cheiro-verde}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{goetz}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+%%%%%%%%%%%%%%
+	\student[Angelo]{Tassoni Collovini}{Ângelo}[m]
+	\studentinfo[23078.574226/2023-49]{268531}{angelotcll@gmail.com}
+	\worktitle{Construção de um Sistema de Monitoramento e Controle para Fotobiorreator de Sistemas de Microalgas}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{farenzena}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+
+%%%%%%%%%%%%%%
+	\student[Artur]{Piana Broilo}{Artur}[m]
+	\studentinfo[23078.573707/2023-37]{302491}{artur.p.broilo@gmail.com}
+	\worktitle{Bomba de Infusão de Baixo Custo}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{mario}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+	%\studentfate[FF]
+
+
+%%%%%%%%%%%%%%
+	\student[ThecMaci]{Ivane Makosso}{Thec-Maci}[m]
+	\studentinfo[23078.571295/2023-09]{290771}{ivanethecmaci@gmail.com}
+	\worktitle{Shaker Plataforma Stewart}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{laranja}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\altexaminer{}{}
+
+%			\studentfate
+
+%%%%%%%%%%%%%%
+	\student[Guillermo]{Chagas Sartori}{Guillermo }[m]
+	\studentinfo[23078.576299/2023-75]{210134}{guichagassartori@gmail.com}
+	\worktitle{Projeto de Controladores Baseados em Dados para Sistemas MIMO: Uma Abordagem com Desacopladores}
+
+  \studentaddtolist{tccI}
+
+  \advisorprof{luciola}
+  \coadvisorprof{denardi}
+	%\examinergrades{}{}{}
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+	\examiner{}{}
+	\examinergrades{}{}{}[]
+  \altexaminer{}{}
+
+	%\studentfate[FF]
+
+
+%%%%%%%%%
+%%%%%%%%%
+\boardtitle{Apresentações de TCC - \UseTerm{semester}}
+\boardobs{Dada a natureza confidencial dos trabalhos marcados com \emph{(confid)}, estas apresentações serão
+reservadas apenas aos membros da banca examinadora.}
+
+\semester{2023/II}
+
+
+%%%%%%%%%
+%%%%%%%%%
+
+\setstudentlist{tccI.A}{Guillermo,ThecMaci,Artur,Angelo,Karoline,Guilherme,
+  EduardoChini,BrunoAlmiron,Julia,Daniel,GuilhermeCabral,DanielBaraldi,Rodrigo,LucasMuratore,Alexandre}
+%
+%
+\setstudentlist{tccII.A}{Vitor,Thales,Nickolas,Miron,MarceloSalvadori,MarceloEly,Lucas,LeonardoRocha,LeonardoReal,Joao,Jean,Henrique,EduardoFarinati,Bruno,Andre}
+\studentnewpage[LeonardoRocha]  
+%\studentnewpage[Lucas]  
+                      
+
+%%%%%%%%%
+%%
+%% \sortstudentlist  => default 'no sorting'
+%% \sortstudentlist* => ordem alfabética 
+%% \sortstudentlist+ => sequência de apresentação
+%%
+%%%%%%%%%
+\sortstudentlist*{tccI.A}
+
+\sortstudentlist+{tccII.A}
+
+
+%%%%%%%%%
+%%
+%%  Nota '-I' refere-se a TCC I, '-II' refere-se a TCC II.
+%%
+%%	reqform                 %%% Formulário de requerimento de matrícula em TCC
+%%	coadvisor               %%% Formulário de requerimento/justficativa para co-orientador
+%%	boardapproval           %%% Formulário de indicação da Banca Examinadora
+%%	advisorsapproval        %%% Formulário de aprovação do Orientador com parecer do mesmo
+%%	receipts                %%% Formulários de recebimento de cópia impressa do TCC (somente -II)
+%%	examinersforms          %%% Formulários de avaliação e correções para Banca Examinadora
+%%	rectifyapproval         %%% Formulário de Aprovação de Correções
+%%
+%%	internreqform           %%% Formulário de requerimento de matrícula em Estágio Obrigatório
+%%	internsupervisorform    %%% Formulário de avaliação do estágio pelo supervisor
+%%	interntutorform         %%% Formulário de avaliação do estágio pelo tutor
+%%
+%%
+%% \tcemptyforms{} gerará os formulários 'em branco'
+%%
+%% \tcforms{} gerará os formulários com os dados fornecidos 'ultimo aluno'.
+%%
+%%%%%%%%%
+
+
+%%%%%%%%%
+%%
+%%  Nota '-I' refere-se a TCC I, '-II' refere-se a TCC II.
+%%
+%%	attendance               %%% pequena lista de chamada (2 páginas)
+%%	calendar                 %%% Formulário de requerimento de matrícula em TCC
+%%	report                   %%% Formulário de requerimento/justficativa para co-orientador
+%%  checklist                %%% um 'check list' genérico
+%%	revforms                 %%% Formulários de revisão/correção por membro da banca
+%%	referral                 %%% despachos de encaminhamento (sacad)
+%%	cocertificate            %%% Certificado de co-orientação
+%%	boards                   %%% bancas/dias de apresentação (sem -II), somente para TCC II
+%%
+%%
+%% \tcreports[]{} gerará os formulários com os dados fornecidos.
+%%
+%%%%%%%%%
+
+
+%
+% inicio do documento
+%
+\begin{document}
+
+
+%%%%%%%%%
+%% Para Estágio Obrigatório
+%%
+%\tcemptyforms{internreqform,internsupervisorform,interntutorform}
+
+%\studentselect{someone}
+%\tcforms{internreqform,internsupervisorform,interntutorform}
+  
+%%%%%%%%%
+%% Para TCC I
+%%
+%\tcemptyforms{reqform-I,coadvisor-I,boardapproval-I,advisorsapproval-I,examinersforms-I,rectifyapproval-I}
+
+%\studentselect{someone}
+%\tcforms{reqform-I,coadvisor-I,boardapproval-I,advisorsapproval-I,examinersforms-I,rectifyapproval-I}
+  
+%%%%%%%%%
+%% Para TCC II
+%%
+%\tcemptyforms{reqform-II,coadvisor-II,boardapproval-II,advisorsapproval-II,receipts-II,examinersforms-II,rectifyapproval-II}
+
+%\studentselect{someone}
+%\tcforms{reqform-II,coadvisor-II,boardapproval-II,advisorsapproval-II,receipts-II,examinersforms-II,rectifyapproval-II}
+
+
+%%%%%%%%%
+%% Reports p/ coordenação
+%%
+%\tcreports[calendar-I,report-I,revforms-I,referral-I,cocertificate]{tccI.A}
+\tcreports[attendance,calendar-I,checklist-I,report-I,referral-I]{tccI.A}
+
+%\tcreports[boards,calendar-II,report-II,revforms-II,referral-II,cocertificate]{tccII.A}
+\tcreports[boards,calendar-II,checklist-II,referral-II,report-II]{tccII.A}
+%\tcreports[boards,referral-II,report-II]{tccII.A}
+
+\end{document}
+
+
