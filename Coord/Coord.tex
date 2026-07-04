@@ -1,0 +1,835 @@
+% !TEX program = pdflatex
+% !TEX ext =  --interaction=nonstopmode --enable-etex
+% !BIB program = none
+%%%==============================================================================
+%% Copyright 2022-present by Alceu Frigeri
+%%
+%% Document (sample) file using the class ufrgscca
+%%
+%%%==============================================================================
+%
+\documentclass{ufrgscca}
+\usepackage{ufrgscca-coord}
+
+
+%
+% demais informações
+%
+\input{Coord-xtra.tex}
+
+\semester{2026/I}
+
+\ActivitySetCoord[course]{Fabiano Disconzi Wildner}[m]
+
+\ActivitySetCoord[internship]{Rafael Antônio Comparsi Laranja}[m]
+
+\ActivitySelect{tccI}
+\ActivitySetCoord{Lucíola Campestrini}[f]
+
+\ActivitySetEventDay{Apresentacao}{Dia 11/03}{02}
+\ActivitySetEventDay{Matricula}{Até 20/03}{01 a 03}
+%\ActivitySetEventDay{EncontroI}{A marcar}{10}
+\ActivitySetEventDay{IndicaBanca}{Até 15/05}{11}
+\ActivitySetEventDay{Seminarios}{18-22/05}{12}
+\ActivitySetEventDay{EntregaTCC}{Até 05/06}{14}
+\ActivitySetEventDay{Bancas}{Até 19/06}{15-16}
+\ActivitySetEventDay{Correcoes}{Até 03/07}{18}
+\ActivitySetEventDay{Exame}{Até 10/07}{19}
+
+
+\ActivitySelect{tccII}
+\ActivitySetCoord{Lucíola Campestrini}[f]
+
+%\ActivitySetEventDay{Apresentacao}{Dia 17/03}{02}
+\ActivitySetEventDay{Matricula}{Até 20/03}{01 a 03}
+%\ActivitySetEventDay{EncontroI}{A marcar}{10}
+\ActivitySetEventDay{IndicaBanca}{Até 15/05}{11}
+\ActivitySetEventDay{Seminarios}{25-29/05}{13}
+\ActivitySetEventDay{EntregaTCC}{Até 12/06}{15}
+\ActivitySetEventDay{Bancas}{22-26/06}{17}
+\ActivitySetEventDay{FormCorrecoes}{Até 26/06}{17}
+\ActivitySetEventDay{Correcoes}{Até 03/07}{18}
+\ActivitySetEventDay{Exame}{Até 10/07}{19}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Alunos TCC-II
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ActivitySelect{tccII} %% Necessário apenas no caso de \checklist
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\student[BrunoAlmiron]{Rodrigues}{Bruno Almiron}[m] %em exame
+\studentinfo[23078.575381/2023-82]{231075}{brunoalmiron.1993@gmail.com}
+\worktitle{Análise do Controle de um Elevador Auxiliado por Sistema de Hardware-In-the-Loop}
+\studentremark{nao enviou formulario de banca}
+
+\studentaddtolist{tccII}
+
+\advisorprof{perondi}
+%%\coadvisorprof{}
+%%\coadvisor{}{}[]
+%%\examinergrades{}{}{}
+%\examinerprof{mario}
+%%\examinergrades{10}{2}{3}
+%\examinerprof{pedro}
+%%\examinergrades{10}{9}{9}
+%\altexaminerprof{renato}
+%%\timeslot[Sala Conselho]{00/08/2024}{00:00}%ficou pra ultima semana
+\studentfate[dismiss]
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\student[Gabriel]{Sadigursky Nunes Cunha}{Gabriel}[m] %em exame
+\studentinfo[23078.561474/2025-91]{00326482}{Gabriel.sadigursky@gmail.com}
+\worktitle{Development and evaluation of a simplified FastSLAM algorithm in ROS 2: a case study for the capability enhancement of robots from Startchê UFRGS Robotic Team}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccII}
+
+\advisorprof{laranja}
+%\coadvisorprof{}
+\coadvisor{de Queiroz Maffei}{Renan}[m] %VERIFICAR SEI
+\examinergrades{9}{9}{8}
+\examinerprof{goetz}
+\examinergrades{10}{9.5}{10}[]
+\examinerprof{walter} %
+\examinergrades{9}{9}{10}[]
+\altexaminer{Tura Markus}{André}% andre.markus@ufrgs.br
+\timeslot[207 DEMEC]{23/06/2024}{10:30}
+%\studentfate[other]
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[Lara]{Colognese de Almeida}{Lara}[f] %em exame
+\studentinfo[23078.561346/2025-48]{00314458}{colognesealmeida.lara@gmail.com}
+\worktitle{Desenvolvimento e extensão de bibliotecas em Python para controle baseado em dados}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccII}
+
+\advisorprof{bazanella}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+\examinergrades{10}{9}{10}
+\examinerprof{diego}
+\examinergrades{10}{9}{10}
+\examiner{Christ Boeira}{Emerson} %
+\examinergrades{10}{9}{10}
+\altexaminerprof{luciola}
+\timeslot[104 Centenário]{25/06/2026}{16:00}
+%\studentfate[other]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+	\student[LeonardoRocha]{da Rocha Neitzke}{Leonardo}[m]
+	\studentinfo[23078.537660/2023-48]{288584}{leorochaneitzke@gmail.com}
+	\worktitle{Projeto de um AGV Utilizando Detecção de “Tags” por Visão Computacional}
+ % \studentremark{2o semestre}
+    \studentremark{nao indicou banca; nao apresentou andamento}
+  
+  \studentaddtolist{tccII}
+
+	\advisorprof{aurelio}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+%	\examinergrades{}{}{}
+	\examinerprof{heraldo}
+%	\examinergrades{}{}{}
+	\examinerprof{fabiano}
+%	\examinergrades{}{}{}
+	\examinergrades{}{}{}
+	\altexaminerprof{goetz}
+  %\timeslot{22/11/2024}{18:30}
+\studentfate[dismiss]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+	\student[LucasMuratore]{Muratore}{Lucas}[m] %desde 2018/2 - inserir moodle
+	\studentinfo[23078.522726/2025-67]{220478}{lcsmrtre@gmail.com}
+	\worktitle{Implementação de algoritmo para detecção do ângulo de chegada (DOA) de feixes de sinais de RF ulizando redes neurais}
+  \studentremark{ processo antigo 23078.537491/2023-46}
+
+  \studentaddtolist{tccII}
+
+  \advisorprof{valner}
+	%\coadvisorprof{}
+  %\coadvisor{}{}[]
+	\examinergrades{8}{8}{8}
+	\examinerprof{ivan}
+		\examinergrades{9.5}{8.5}{7.5}[]
+	\altexaminerprof{goetz}
+	\examiner{Brandt}{Rodrigo} % rodrigobrandt@gmail.com
+		\examinergrades{9}{8.5}{7}[]
+	\timeslot[Online]{25/06/2026}{8:30}
+ % \studentfate[dismiss]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[Mateus]{Schein Cavalheiro Corrêa}{Mateus}[m] %em exame
+\studentinfo[23078.560330/2025-18]{00311352}{mateusrobots@gmail.com}
+\worktitle{Desenvolvimento de sistema para monitoramento e adestramento de animais domésticos baseado em visão computacional}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccII}
+
+\advisorprof{heraldo}
+%\coadvisorprof{}
+\coadvisor{Pires Espindula}{Jonnas}[] %jonnas.pires.espindula@gmail.com
+\examinergrades{9.5}{9}{9}
+\examinerprof{goetz}
+\examinergrades{10}{9}{10}[]
+\examiner{Cordeiro do Valle}{Edson} %edsoncv@enq.ufrgs.br
+\examinergrades{9}{8}{9}[]
+\altexaminer{Tura Markus}{André}% andre.markus@ufrgs.br
+\timeslot[104 Centenário]{22/06/2026}{10:30}
+%\studentfate[other]
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[PedroS]{Schnarndorf}{Pedro}[m] %em exame
+\studentinfo[23078.560070/2025-81]{00301979}{pdorf29@hotmail.com}
+\worktitle{Estudo de viabilidade de estimação de pose de ratos em ambiente laboratorial}
+
+\studentaddtolist{tccII}
+
+\advisorprof{heraldo}
+%\coadvisorprof{}
+\coadvisor{Soares Guimarães Junior}{Carlos Solon}[]%carlos.guimaraes@senairs.org.br
+\examinergrades{9.5}{9}{9}
+\examinerprof{goetz}
+\examinergrades{10}{10}{10}[]
+\altexaminer{Rosito Jung}{Claudio} %crjung@inf.ufrgs.br
+\examiner{Manfredini Vassoler}{Jakson} %vassoler@mecanica.ufrgs.br
+\examinergrades{9}{9}{9.5}[]
+
+\timeslot[104 Centenário]{25/06/2026}{13:30}
+%\studentfate[other]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\student[Baitelli]{Barros Baitelli}{Pedro}[m]
+\studentinfo[23078.561455/2025-65]{00304123}{pb.atm55@gmail.com}
+\worktitle{Auto-sintonia PID utilizando o método EFO com sistemas embarcados de tempo real}
+\studentaddtolist{tccII}
+\studentremark{processo antigo 23078.566619/2024-60}
+
+\advisorprof{goetz}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+\examinergrades{10}{9}{9}
+\examinerprof{luciola}
+\examinergrades{7}{7}{8}[]
+\examinerprof{valner}
+\examinergrades{8}{8}{9}[]
+\altexaminerprof{aurelio}
+\timeslot[301A DELET]{25/06/2026}{11:00}
+%\studentfate[FF]
+
+%\studentfate[other]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[Vitor]{Simon de Souza}{Vitor}[m] %em exame
+\studentinfo[23078.561073/2025-31]{00325102}{vitor.simondesouza@gmail.com}
+\worktitle{Protótipo de um sistema de detecção de anomalias e intrusão não-invasivo para redes de automação baseadas em Modbus TCP}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccII}
+
+\advisorprof{goetz}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+\examinergrades{10}{10}{10}
+\examinerprof{ivan}
+\examinergrades{8.5}{8.5}{9}[]
+\examiner{Netto}{João} %
+\examinergrades{9.5}{8.5}{9}[]
+\altexaminerprof{aurelio}
+\timeslot[103 Centenário]{23/06/2026}{13:30}
+%\studentfate[other]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\student[Yasmin]{Rodrigues Koppenhagen}{Yasmin}[f] %em exame
+\studentinfo[23078.561493/2025-18]{00304563}{yasmin.koppenhagen@gmail.com}
+\worktitle{Projeto de um sistema de controle háptico preditivo 1-DOF para sincronização visuo-motora em tempo real}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccII}
+
+\advisorprof{goetz}
+\coadvisorprof{laranja}
+%\coadvisor{}{}[]
+\examinergrades{10}{10}{10}
+\examinerprof{aurelio}
+\examinergrades{9}{8}{10}[]
+\examinerprof{ivan} %
+\examinergrades{9}{7}{8}[]
+\altexaminerprof{valner}
+\timeslot[104 Centenário]{24/06/2026}{10:30}
+%\studentfate[other]
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Alunos TCC-I
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\ActivitySelect{tccI} %% Necessário apenas no caso de \checklist
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\student[Augusto]{de Freitas}{Augusto}[m] %em exame
+%\studentinfo[23078.561472/2025-01]{00303633}{00303633@ufrgs.br}
+%\worktitle{Avaliação de métodos de reconstrução 3D utilizando registro automático de nuvens de pontos}
+%%\studentremark{nao indicou banca}
+%
+%\studentaddtolist{tccI}
+%
+%\advisorprof{heraldo}
+%%\coadvisorprof{}
+%\coadvisor{Sidra de Freitas}{Pedro}
+%%\examinergrades{}{}{}
+%\examiner{Rosito Jung}{Claudio}
+%\examinergrades{10}{8.5}{9.5}[8]
+%\examiner{Crespo Izquierdo}{Rafael} %
+%\examinergrades{8}{6}{6}[6]
+%%\altexaminer{}{}
+%%\studentfate[other]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[Artur]{Svensson Pires}{Artur}[] %em exame
+\studentinfo[23078.517518/2026-27 ]{00333942}{piresartur3@gmail.com }
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{pedro}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{jorge}
+\examinergrades{10}{9}{10}[9.5]
+\examinerprof{goetz} %
+\examinergrades{10}{8}{8}[10]
+%\altexaminer{}{}
+%\studentfate[other]
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[BrunoR]{Richwicki}{Bruno}[] %em exame
+\studentinfo[23078.517008/2026-50]{00334761}{brunorichwicki@gmail.com}
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{mario}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{jorge}
+\examinergrades{10}{10}{9.5}[9.5]
+\examinerprof{andre} %
+\examinergrades{10}{10}{6}[8]
+%\altexaminer{}{}
+%\studentfate[other]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[BrunoBonatto]{Vebber Bonatto}{Bruno}[] %em exame
+\studentinfo[23078.517006/2026-61]{00333531}{brunovebo@gmail.com}
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{laranja}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{goetz}
+\examinergrades{10}{10}{10}[8]
+\examinerprof{fabiano} %
+\examinergrades{9}{9}{8.5}[9.5]
+%\altexaminer{}{}
+%\studentfate[other]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[BrunoClesar]{Clesar da Silva}{Bruno}[] %em exame
+\studentinfo[23078.517915/2026-07]{00262811}{brunoclesars@gmail.com}
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{laranja}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{goetz}
+\examinergrades{10}{10}{8}[9]
+\examinerprof{heraldo} %
+\examinergrades{9}{9}{8.5}[9]
+%\altexaminer{}{}
+%\studentfate[other]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[Diego]{Novello}{Diego}[] %em exame
+\studentinfo[23078.517186/2026-81 ]{00311351}{novello1998@hotmail.com }
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{laranja}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{aurelio}
+\examinergrades{10}{8}{8}[10]
+\examinerprof{fabiano} %
+\examinergrades{9}{8.5}{8.5}[8]
+%\altexaminer{}{}
+%\studentfate[other]
+
+
+\student[Fernanda]{Silva de Souza}{Fernanda}[f] %em exame
+\studentinfo[23078.561184/2025-48]{00319024}{fernanda.souza9020@gmail.com}
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{farenzena}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{pedro}
+\examinergrades{10}{10}{10}[9]
+\examiner{Salbego Ramos}{Lucas}%lucas.salbego.eng@gmail.com
+\examinergrades{10}{10}{8}[10]
+%\altexaminer{}{}
+%\studentfate[dismiss]
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\student[GuilhermeBrito]{Oliveira de Brito}{Guilherme}[m] %em exame
+\studentinfo[23078.566032/2024-51]{00288573}{guibrito8@gmail.com}
+\worktitle{Modelagem e Controle de Sistema Fluido-Mecânico}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{mario}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{pedro}
+\examinergrades{10}{9}{9}[9]
+\examinerprof{perondi} %
+\examinergrades{10}{10}{9}[9.5]
+%\altexaminer{}{}
+%\studentfate[FF]
+%\studentfate[dismiss]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[JoaoVitor]{Marques Barcelos}{João Vítor}[] %em exame
+\studentinfo[23078.517214/2026-60]{00334524}{joao.barcelos@ufrgs.br }
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{bazanella}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{}
+%\examinergrades{}{}{}[]
+\examinerprof{} %
+%\examinergrades{}{}{}[]
+%\altexaminer{}{}
+\studentfate[dismiss] %vai deixar pro  proximo semestre
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[LucasK]{Klement Reinehr}{Lucas}[m] %em exame
+\studentinfo[23078.560921/2025-95]{00326910}{lucas.klement@ufrgs.br}
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{goetz}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{joaonetto}
+\examinergrades{10}{10}{10}[8]
+\examinerprof{walter} %
+\examinergrades{10}{8}{9}[9]
+%\altexaminer{}{}
+%\studentfate[other]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[Mariana]{Damm Poli}{Mariana}[f] %em exame
+\studentinfo[23078.560650/2025-78]{00305130}{marianadpoli@yahoo.com.br}
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{laranja}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{fabiano}
+\examinergrades{9}{8}{8}[8]
+\examinerprof{perondi} %
+\examinergrades{10}{10}{9}[9]
+%\altexaminer{}{}
+%\studentfate[other]
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[Milena]{Muller Lottici}{Milena}[f] %em exame
+\studentinfo[23078.518037/2026-39]{00322888}{milena.muller@hotmail.com}
+\worktitle{Modelagem de comportamento dinâmico}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{bibiana}
+%\coadvisorprof{}
+\coadvisor{Ferraz}{Renato}[m]
+%\examinergrades{}{}{}
+\examinerprof{bazanella}
+\examinergrades{10}{9}{9}[9]
+\examiner{Vidor}{Fábio} %
+\examinergrades{10}{10}{8}[8]
+%\altexaminer{}{}
+%\studentfate[other]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[Thiago]{Miorando Tavolara }{Thiago}[] %em exame
+\studentinfo[23078.517880/2026-06 ]{00335515}{thiagomiorandotavolara@gmail.com}
+\worktitle{}
+%\studentremark{nao indicou banca}
+
+\studentaddtolist{tccI}
+
+\advisorprof{goetz}
+%\coadvisorprof{}
+%\coadvisor{Ferraz}{Renato}[]
+%\examinergrades{}{}{}
+\examinerprof{jm}
+\examinergrades{10}{7}{10}[9]
+\examiner{Vizzotto}{Marcos} %
+\examinergrades{10}{10}{10}[10]
+%\altexaminer{}{}
+%\studentfate[other]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\student[William]{Cruz Serpa}{William}[m] %processo antigo - cancelou devido enchente 23078.526238/2024-48; processo antigo orientador mario 23078.561437/2025-83
+\studentinfo[23078.518069/2026-34]{303386}{william.serpa@ufrgs.br}
+\worktitle{Modelagem do comportamento dinâmico de músculo pneumático}
+%\studentremark{processo antigo 23078.523081/2025-80}
+
+\studentaddtolist{tccI}
+
+\advisorprof{laranja}
+%\coadvisorprof{}
+%\coadvisor{}{}[]
+%\examinergrades{}{}{}
+\examinerprof{renato}
+\examinergrades{10}{9}{10}[9]
+\examinerprof{fabiano} %andre.markus@ufrgs.br
+\examinergrades{9}{8.5}{8.5}[8]
+%\altexaminer{}{}
+%\studentfate[D]
+
+
+
+
+
+%\student[Lucas]{Vieira da Silva}{Lucas}[m] %2o semestre
+%\studentinfo[23078.526527/2024-47]{278296}{lucas9vieira@gmail.com}
+%\worktitle{Estudo de caso - Projeto de automação de planta industrial}
+%\studentremark{Formulário de indicação de banca sem assinatura orientador}
+%\studentremark{Não apresentou seminário de andamento}
+%\studentaddtolist{tccI}
+%
+%\advisorprof{goetz}
+%%\coadvisorprof{}
+%%\coadvisor{}{}[]
+%%\examinergrades{}{}{}
+%\examinerprof{mario}
+%%\examinergrades{10}{4}{0}[0]
+%\examinerprof{fabiano}
+%%\examinergrades{10}{3}{4}[0]
+%\altexaminer{}{}
+%\studentfate[FF]
+%
+%%\studentfate[other]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+%%%????? not in teams 
+
+
+
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%
+%%
+%%  Nota '-I' refere-se a TCC I, '-II' refere-se a TCC II.
+%%
+%%	reqform                 %%% Formulário de requerimento de matrícula em TCC
+%%	coadvisor               %%% Formulário de requerimento/justficativa para co-orientador
+%%	boardapproval           %%% Formulário de indicação da Banca Examinadora
+%%	advisorsapproval        %%% Formulário de aprovação do Orientador com parecer do mesmo
+%%	receipts                %%% Formulários de recebimento de cópia impressa do TCC (somente -II)
+%%	examinersforms          %%% Formulários de avaliação e correções para Banca Examinadora
+%%	rectifyapproval         %%% Formulário de Aprovação de Correções
+%%
+%%	internreqform           %%% Formulário de requerimento de matrícula em Estágio Obrigatório
+%%	internsupervisorform    %%% Formulário de avaliação do estágio pelo supervisor
+%%	interntutorform         %%% Formulário de avaliação do estágio pelo tutor
+%%
+%%
+%% \tcemptyforms{} gerará os formulários 'em branco'
+%%
+%% \tcforms{} gerará os formulários com os dados fornecidos 'ultimo aluno'.
+%%
+%%%%%%%%%
+
+
+%%%%%%%%%
+%%
+%%  Nota '-I' refere-se a TCC I, '-II' refere-se a TCC II.
+%%
+%%	attendance               %%% pequena lista de chamada (2 páginas)
+%%	calendar                 %%% cronograma de atividades
+%%	report                   %%% Relatório de acompanhamento
+%%	revforms                 %%% Formulários de revisão/correção por membro da banca
+%%	referral                 %%% despachos de encaminhamento (sacad)
+%%	cocertificate            %%% Certificado de co-orientação
+%%	boards                   %%% bancas/dias de apresentação (sem -II), somente para TCC II
+%%
+%%
+%% \tcreports[]{} gerará os formulários com os dados fornecidos.
+%%
+%%%%%%%%%
+
+
+
+%%%%\setstudentlist{tccI.A}{Guillermo,ThecMaci,Artur,Angelo,Karoline,Guilherme,
+%%%%  EduardoChini,BrunoAlmiron,Julia,Daniel,GuilhermeCabral,DanielBaraldi,Rodrigo,LucasMuratore,Alexandre}
+%%%%%
+%%%%%
+%%%%\setstudentlist{tccII.A}{Vitor,Thales,Nickolas,Miron,MarceloSalvadori,MarceloEly,Lucas,LeonardoRocha,LeonardoReal,Joao,Jean,Henrique,EduardoFarinati,Bruno,Andre}
+%%%%\studentnewpage[LeonardoRocha]  
+                      
+
+%%%%%%%%%
+%%
+%% \sortstudentlist  => default 'no sorting'
+%% \sortstudentlist* => ordem alfabética 
+%% \sortstudentlist+ => sequência de apresentação
+%%
+%%%%%%%%%
+\sortstudentlist{tccI}
+
+\sortstudentlist{tccII}
+
+\boardtitle{Apresentações de TCC - \UseTerm{semester}}
+\boardobs{Banca online: \url{ 	https://meet.google.com/jkh-ummv-zjy}}
+%\boardobs{As bancas serão realizadas na Sala do Conselho da Escola de Engenharia no prédio Centenário e na sala 301 do Instituto Eletrotécnico (lab de controle).}
+
+
+\setstudentlist{tccI.A}{Artur, BrunoR, BrunoBonatto, BrunoClesar, Diego, Fernanda, GuilhermeBrito, JoaoVitor, LucasK, Mariana, Milena, Thiago, William }
+
+\setstudentlist{tccII.A}{BrunoAlmiron, Gabriel, Lara, LeonardoRocha, LucasMuratore, Mateus, PedroS, Baitelli, Vitor, Yasmin}
+
+\setstudentlist{tccII.B}{Mateus, Gabriel, Vitor, Yasmin, LucasMuratore, Baitelli, PedroS, Lara}
+
+
+%\setstudentlist{tccII.B}{AnaJulia, Enrique, Leonardo, LuisFelipe, Maxwell,  Nicole, Lorandi, Vinicius}
+
+%\setstudentlist{tccII.C}{LeonardoRocha, LucasMuratore}
+
+
+
+%\setstudentlist{tccII.B}{Julia, Sanvitto, Andre, Vinicius, Nycolas, Daniel, Felipe, GuilhermeCabral, Guillermo, Rodrigo}
+%\setstudentlist{tccII.B}{Sanvitto, Guillermo}
+%\setstudentlist{tccII.B}{Alexandre,Angelo,Artur,EduardoChini,EduardoFarinati,Karoline,Nickolas}
+%\setstudentlist{tccI2023II}{Guillermo,Daniel}
+
+%\setstudentlist{tccI.A}{Augusto, Gabriel, Lara, Mateus, Baitelli, PedroS, Vitor, William, Yasmin}
+
+%\setstudentlist{tccI.B}{Fernanda, GuilhermeBrito, LucasK, Mariana}
+
+%
+% inicio do documento
+%
+\begin{document}
+
+
+%%%%%%%%%%
+%%% Para Estágio Obrigatório
+%\tcemptyforms{internreqform,internsupervisorform,interntutorform}
+%%\studentselect{someone}
+%%\tcforms{internreqform,internsupervisorform,interntutorform}
+%  
+
+%%%%%%%%%%
+%%% Para TCC I
+%\tcemptyforms{reqform-I,coadvisor-I,boardapproval-I,advisorsapproval-I,examinersforms-I,rectifyapproval-I}
+%%\studentselect{someone}
+%%\tcforms{reqform-I,coadvisor-I,boardapproval-I,advisorsapproval-I,examinersforms-I,rectifyapproval-I}
+
+%  
+%%%%%%%%%%
+%%% Para TCC II
+%\tcemptyforms{reqform-II,coadvisor-II,boardapproval-II,advisorsapproval-II,examinersforms-II,rectifyapproval-II}
+%%\tcemptyforms{examinersforms-II,rectifyapproval-II}
+%%\studentselect{someone}
+%%\tcforms{reqform-II,coadvisor-II,boardapproval-II,advisorsapproval-II,receipts-II,examinersforms-II,rectifyapproval-II}
+
+
+%%%%%%%%%
+%% Reports p/ coordenação
+%%
+
+%\studentnewpage[Lucas]
+
+
+
+%\suppresschecklist
+
+%\tcreports[report-I]{tccI}
+%\tcreports[report-II]{tccII}
+
+%\tcreports[revforms-I]{tccI}
+%\tcreports[revforms-II]{tccII}
+
+%\tcreports[report-I]{tccI}
+%\tcreports[report-II]{tccII}
+
+%\tcreports[report-I,referral-I]{tccI2023II}
+
+%\tcreports[calendar-I,report-I,referral-I,revforms-I,cocertificate]{tccI}
+%\tcreports[calendar-II,boards,report-II,referral-II,revforms-II,cocertificate]{tccII}
+
+%\tcreports[report-I,calendar-I]{tccI}
+%\tcreports[calendar-I]{tccI}
+%\tcreports[calendar-II]{tccII}
+\tcreports[report-II]{tccII.A}
+%\tcreports[boards,report-II]{tccII.A}
+%\tcreports[boards]{tccII.B}
+\tcreports[cocertificate]{tccII.A}
+
+\tcreports[report-I]{tccI.A}
+%\tcreports[referral-I]{tccI.A}
+\tcreports[cocertificate]{tccI.A}
+
+%\tcreports[referral-II]{tccII.B}
+%\tcreports[referral-II]{tccII.C}
+%\tcreports[cocertificate]{tccII.B}
+
+%\ExplSyntaxOn
+% \starray_show_terms:n {student}
+% \starray_show_terms:n {activity}
+%\ExplSyntaxOff
+
+
+
+
+\end{document}
+
+

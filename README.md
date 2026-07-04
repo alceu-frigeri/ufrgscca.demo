@@ -81,12 +81,20 @@ The Current Maintainer of this work is Alceu Frigeri
     - TeXRefCardv15.pdf
     - Writing Articles.pdf
     
+* Coord
+    - Coord.tex
+    - Coord-xtra.tex    
+    
 -------------
 
 
 ## Changelog
 
-* Version 1.1 (this)
+* Version 1.2 (this)
+    - sync with ufrgscca v2.13a
+    - added Coord dir
+
+* Version 1.1
     - sync with ufrgscca v2.11
 
 * Version 1.0
